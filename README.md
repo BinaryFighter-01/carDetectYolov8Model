@@ -1,7 +1,3 @@
-Below is a sample `README.md` file tailored for your GitHub repository. It provides an overview of your project, instructions for setting it up, and specifies running `carModel.py` for object detection. Feel free to customize it with more details about your dataset, model, or additional features.
-
----
-
 # Car Detection with YOLOv8
 
 This repository contains a project for detecting cars in images and live webcam feeds using the YOLOv8 object detection model. The model is trained on a custom dataset to identify cars with high accuracy and optimized for fast performance.
