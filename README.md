@@ -29,7 +29,7 @@ This repository contains a project for detecting cars in images and live webcam 
 
 ## Project Structure
 ```
-car.v2i.yolov8/
+carDetectYolov8Model/
 ├── dataset/
 │   ├── data.yaml
 │   ├── train/
@@ -50,8 +50,8 @@ car.v2i.yolov8/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/car.v2i.yolov8.git
-cd car.v2i.yolov8
+git clone https://github.com/BinaryFighter-01/carDetectYolov8Model.git
+cd carDetectYolov8Model
 ```
 
 ### 2. Install Dependencies
@@ -82,7 +82,7 @@ After training, the script automatically switches to live webcam mode to detect 
 - The best model (`best.pt`) is used for inference.
 
 ## Configuration
-- **Dataset Path**: Update `data` in `carModel.py` to match your dataset location if different from `C:/Users/Anil Abhange/Downloads/car.v2i.yolov8/dataset/data.yaml`.
+- **Dataset Path**: Update `data` in `carModel.py` to match your dataset location if different from `C:/Users/Anil Abhange/Downloads/carDetectYolov8Model/dataset/data.yaml`.
 - **Model**: Uses `yolov8n.pt` for fast performance; switch to `yolov8s.pt` for better accuracy if needed.
 - **Hyperparameters**: Adjust `epochs`, `imgsz`, and `batch` in `carModel.py` for your needs.
 
